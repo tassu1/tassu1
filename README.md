@@ -1,22 +1,30 @@
-# 👋 Hey, I'm Tahseen!
+# 👋 Hey there, I'm Tahseen!
 
-🚀 **MERN Stack Developer | AI & DSA Enthusiast**
+### 🚀 Fullstack Developer | TypeScript Pro | AI Explorer | DSA Enthusiast
 
-I'm passionate about **building scalable web applications** and exploring the world of **AI and real-time technologies**. Always eager to learn, improve, and take on new challenges!
+I'm a passionate developer who loves building **scalable web apps**, exploring the magic of **real-time tech**, and diving deep into **AI and DSA**. With a solid fullstack skillset and a growth mindset, I’m always chasing the next big challenge.
 
-### 🛠 **Tech Stack**
-- **Languages:** JavaScript, Python
-- **Frontend:** React.js, Next.js, Tailwind CSS, Material-UI
-- **Backend:** Node.js, Express.js, WebRTC, Socket.io
+---
+
+### 🛠 Tech Stack
+- **Languages:** TypeScript, JavaScript, Python
+- **Frontend:** React.js, Next.js (learning), Tailwind CSS, Material-UI
+- **Backend:** Node.js, Express.js, Socket.io, WebRTC
 - **Database:** MongoDB, Firebase
-- **Other Tools:** Git, Docker, Postman, VS Code
+- **Dev Tools:** Git, Docker, Postman, VS Code
 
-### 📚 **Currently Learning**
-- **Agent AI & advanced DSA**
-- **Optimizing real-time applications**
+---
 
-### 📫 **Let's Connect!**
-- **GitHub:** [github.com/tassu1](https://github.com/tassu1)
-  
+### 📚 Currently Leveling Up In
+- 🧠 **Agent-based AI Systems**
+- 🧮 **Advanced DSA**
+- ⚡ **Next.js & Fullstack Optimization**
 
-💙 _Always open to collaboration and exciting projects!_
+---
+
+### 🤝 Let's Connect!
+- 🧑‍💻 GitHub: [github.com/tassu1](https://github.com/tassu1)
+
+---
+
+💡 _Always open to exciting collaborations, building impactful projects, or just sharing tech love!_
