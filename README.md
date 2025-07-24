@@ -1,30 +1,38 @@
-# 👋 Hey there, I'm Tahseen!
 
-### 🚀 Fullstack Developer | TypeScript Pro | AI Explorer | DSA Enthusiast
 
-I'm a passionate developer who loves building **scalable web apps**, exploring the magic of **real-time tech**, and diving deep into **AI and DSA**. With a solid fullstack skillset and a growth mindset, I’m always chasing the next big challenge.
+# 👋 Hi, I'm Tahseen
 
----
+### Fullstack Developer | React & Node.js | Passionate About Scalable Solutions
 
-### 🛠 Tech Stack
-- **Languages:** TypeScript, JavaScript, Python
-- **Frontend:** React.js, Next.js (learning), Tailwind CSS, Material-UI
-- **Backend:** Node.js, Express.js, Socket.io, WebRTC
-- **Database:** MongoDB, Firebase
-- **Dev Tools:** Git, Docker, Postman, VS Code
+I'm a fullstack developer with hands-on experience in building **scalable and performant web applications** using modern technologies like **React, Node.js, and TypeScript**. I’m deeply committed to writing clean, maintainable code and continuously improving my skills across the stack.
+
+With a solid foundation in **data structures and algorithms** and growing interest in **AI and system design**, I aim to build solutions that are not just functional—but impactful.
 
 ---
 
-### 📚 Currently Leveling Up In
-- 🧠 **Agent-based AI Systems**
-- 🧮 **Advanced DSA**
-- ⚡ **Next.js & Fullstack Optimization**
+### 🔧 Technical Skills
+
+* **Languages:** TypeScript, JavaScript, Python
+* **Frontend:** React.js, Next.js (learning), Tailwind CSS, Material-UI
+* **Backend:** Node.js, Express.js, Socket.io, WebRTC
+* **Databases:** MongoDB, Firebase
+* **Tools & Platforms:** Git, Docker, Postman, VS Code
 
 ---
 
-### 🤝 Let's Connect!
-- 🧑‍💻 GitHub: [github.com/tassu1](https://github.com/tassu1)
+### 📌 Currently Focusing On
+
+* Developing fullstack projects with **Next.js & TypeScript**
+* Exploring **agent-based AI systems** and Gen AI tools
+* Strengthening problem-solving with **advanced DSA**
 
 ---
 
-💡 _Always open to exciting collaborations, building impactful projects, or just sharing tech love!_
+### 📬 Get in Touch
+
+* **GitHub:** [github.com/tassu1](https://github.com/tassu1)
+
+---
+
+💼 *Open to full-time roles, internships, and collaborative opportunities in web development and AI-driven product teams.*
+
