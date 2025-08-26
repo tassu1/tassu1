@@ -1,59 +1,82 @@
+# 🌌 Hey, I’m Tahseen ✨  
 
-# 👋 Hey, I’m Tahseen
+### 🚀 Fullstack Developer | MERN + Next.js + TypeScript | AI Explorer  
 
-### 🚀 Fullstack Developer | MERN + Next.js + TypeScript | AI Explorer
-
-💡 I build **scalable, user-friendly web apps** with modern tech, and I’m obsessed with making code that’s not just functional, but **impactful**.
-Right now I’m diving deep into **Next.js, TypeScript, and GenAI** to create products that feel like the **future of the web**.
-
----
-
-### 🛠️ Tech Arsenal
-
-**Frontend:** React.js, Next.js, TypeScript, Tailwind CSS, Material-UI
-**Backend:** Node.js, Express.js, Socket.io, WebRTC
-**Databases:** MongoDB, Firebase
-**DevOps & Tools:** Git, Docker, Postman, VS Code
-**AI & Beyond:** Python, LangChain (learning), Agent AI (exploring)
+💡 I craft **scalable web apps** and experiment with **AI-powered solutions**.  
+⚡ On a mission to turn **ideas into impactful products** with code.  
 
 ---
 
-### 🌟 Featured Projects
+## 🛠️ Tech Stack & Skills  
 
-* **InnerLight** 🌙 – A mental wellness platform with mood tracking, AI chat, journals & resources.
-* **DevSnip** ⚡ – Personal snippet manager to save, search & organize reusable code.
-* **SmartCall** 📞 – Video conferencing app (Zoom-like) with WebRTC.
+### 🎨 Frontend  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,materialui" />
+</p>
 
-➡️ *More projects live on my repos — check them out!*
+### ⚙️ Backend & DevOps  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,docker,git,github,vercel,aws" />
+</p>
+
+### 🤖 AI & Tools  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,vscode,postman" />
+  <img src="https://img.shields.io/badge/LangChain-Learning-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenRouter-Learning-orange?style=for-the-badge" />
+</p>
 
 ---
 
-### 🔥 Currently Cooking
+## 🌟 Featured Projects  
 
-* ⚡ Scaling fullstack projects with **Next.js + TypeScript**
-* 🤖 Experimenting with **AI-driven agents & GenAI**
-* 📚 Leveling up in **system design + advanced DSA**
+- 🌙 **InnerLight** → Mental wellness app with mood tracking, AI chat & journals  
+- ⚡ **DevSnip** → Personal snippet manager for saving & organizing code  
+- 📞 **SmartCall** → Real-time video conferencing app (WebRTC-based)  
+
+➡️ *Check more projects in my repos!*  
 
 ---
 
-### 📊 GitHub Stats
+## 🔥 GitHub Vibes  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tassu1&show_icons=true&theme=radical" alt="Tahseen's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tassu1&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tassu1&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=tassu1&theme=tokyonight&hide_border=true" height="160" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tassu1&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</p>
+
+---
+
+## 🐍 Contribution Snake  
+
+<p align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+---
+
+## 🌍 Connect With Me  
+
+<p align="center">
+  <a href="https://github.com/tassu1"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+---
+
+## ✨ Closing Note  
+
+<p align="center">
+💻 I don’t just write code — I **build experiences**.<br/>  
+🚀 Every project is a step toward **smarter, scalable, future-ready solutions**.<br/>  
+🤖 With the fusion of **Fullstack + AI + DevOps**, I aim to create products that **inspire and empower**.<br/>  
+🌌 *“Code today that solves problems, and inspires solutions for tomorrow.”*  
 </p>  
 
----
-
-### 🌍 Let’s Connect
-
-* 🐙 **GitHub:** [github.com/tassu1](https://github.com/tassu1)
-* 💼 *Open to internships, full-time roles & collaborations in web + AI*
-
----
-
-⚡ *“Code that solves problems today, and inspires solutions for tomorrow.”*
-
----
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Let's_Build_Together-000?style=for-the-badge&logo=github&logoColor=white" />
+</p>
