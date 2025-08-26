@@ -54,8 +54,10 @@
 ## 🐍 Contribution Snake  
 
 <p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/tassu1/tassu1/output/snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/tassu1/tassu1/output/snake-dark.svg" alt="snake animation dark" />
 </p>
+
 
 ---
 
@@ -63,7 +65,7 @@
 
 <p align="center">
   <a href="https://github.com/tassu1"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:tassutahsee@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
