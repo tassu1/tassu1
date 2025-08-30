@@ -74,10 +74,10 @@
 ## ✨ Closing Note  
 
 <p align="center">
-💻 I don’t just write code — I **build experiences**.<br/>  
-🚀 Every project is a step toward **smarter, scalable, future-ready solutions**.<br/>  
-🤖 With the fusion of **Fullstack + AI + DevOps**, I aim to create products that **inspire and empower**.<br/>  
-🌌 *“Code today that solves problems, and inspires solutions for tomorrow.”*  
+💻 I don’t just write code — I build experiences.<br/>  
+🚀 Every project is a step toward smarter, scalable, future-ready solutions <br/>  
+🤖 With the fusion of Fullstack + AI + DevOps, I aim to create products that inspire and empower.<br/>  
+🌌 Code today that solves problems, and inspires solutions for tomorrow.  
 </p>  
 
 <p align="center">
