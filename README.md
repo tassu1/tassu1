@@ -72,14 +72,16 @@
 ---
 
  
+## ✨  
 
-<p align="center">
-💻 I don’t just write code — I build experiences.<br/>  
-🚀 Every project is a step toward smarter, scalable, future-ready solutions <br/>  
-🤖 With the fusion of Fullstack + AI + DevOps, I aim to create products that inspire and empower.<br/>  
-🌌 Code today that solves problems, and inspires solutions for tomorrow.  
-</p>  
+💻 I don’t just write code — I create experiences.  
+🚀 Every project I build is a step toward smarter, scalable, and future-ready solutions.  
+🤖 With the fusion of Fullstack + AI + DevOps, I strive to craft products that **inspire, empower, and make a difference.  
+🌌 Code today that solves problems, and inspires solutions for tomorrow. 
+
+---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Let's_Build_Together-000?style=for-the-badge&logo=github&logoColor=white" />
 </p>
+
