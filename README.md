@@ -71,7 +71,7 @@
 
 ---
 
-## ✨ Closing Note  
+ 
 
 <p align="center">
 💻 I don’t just write code — I build experiences.<br/>  
