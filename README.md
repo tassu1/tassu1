@@ -1,132 +1,73 @@
-<div align="center">
+# Md Tahseen Alam
 
-<!-- Animated typing intro -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5B8DFF&center=true&vCenter=true&width=560&lines=Backend-Focused+Full+Stack+Developer;Node.js+%C2%B7+TypeScript+%C2%B7+Redis+%C2%B7+AWS;I+build+the+parts+of+a+system+you+don't+see;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
+**Backend-Focused Full Stack Developer**
 
-</div>
+Building reliable APIs, secure systems, and scalable web applications. I take a problem from initial requirements through to a working, deployed product — with a particular interest in the parts of a system most people never see.
 
-# 🌌 Hey, I'm Tahseen
+`Open to opportunities` · Backend / Full Stack · Jaipur, India
 
-💡 I design and build complete web systems — APIs, authentication, realtime features, background jobs, and the cloud infrastructure that runs them.
-
-📍 Jaipur, Rajasthan &nbsp;|&nbsp; 🎓 B.Tech CSE, Global Institute of Technology (2022–2026)
+[Portfolio ↗](https://tassu1.vercel.app/) · [LinkedIn ↗](https://www.linkedin.com/in/md-tahseen-alam-892317263/) · [Email ↗](mailto:tassutahsee@gmail.com) · [LeetCode ↗](https://leetcode.com/u/tahseen_/)
 
 ---
 
-## 📊 whoami
+### `01 /` What I work on
 
-```text
-$ cat profile.json
-{
-  "role"              : "Backend-Focused Full Stack Developer",
-  "internships"       : "02",
-  "projects_built"    : "07+",
-  "live_products"     : "05",
-  "dsa_solved"        : "300+",
-  "currently_exploring": [
-    "Backend Architecture",
-    "System Design",
-    "Cloud Infrastructure",
-    "Distributed Systems"
-  ]
-}
-```
+- Backend architecture and API design
+- Authentication, authorization, and multi-tenant systems
+- Databases, caching, and background job processing
+- Cloud deployment and production reliability
 
 ---
 
-## 🛠️ Tech Stack
+### `02 /` Selected work
 
-### Backend & Realtime
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
-  <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens" />
-  <img src="https://img.shields.io/badge/Socket.IO-black?style=for-the-badge&logo=socket.io" />
-  <img src="https://img.shields.io/badge/BullMQ-DC382D?style=for-the-badge" />
-</p>
+**[EduManage](https://github.com/tassu1/edumanage)** — Multi-tenant school management
+A role-based school management platform with school-level data isolation, attendance, exams, timetables, and an AI tutor — 5 roles, tested across 4 schools with 35+ demo accounts.
+`React` `Node.js` `Express` `MongoDB` `Socket.IO` `JWT/RBAC` `OpenRouter`
+> **How do you stop one school from seeing another's data?** Every protected route runs a school-context check, and every query is filtered by `schoolId` — a shared database with enforced logical isolation, rather than a separate database per school. The tradeoff is that isolation depends on that filter being applied consistently everywhere, with no room for a missed check.
 
-### Databases
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres" />
-</p>
+[Live demo](https://edumanageai.vercel.app/) · [Source](https://github.com/tassu1/edumanage)
 
-### Cloud & DevOps
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,aws,vercel" />
-</p>
+**[MockMate](https://github.com/tassu1/mockmate)** — AI interview platform
+An interview practice tool where AI-generated reports are handled asynchronously so the API never blocks on generation.
+`Node.js` `Express` `Redis` `BullMQ` `SSE` `OpenRouter`
+> **Why a background worker instead of generating the report in the request?** LLM report generation runs far longer than an HTTP cycle should hold open. A BullMQ queue on Redis hands the job to a separate worker (3× retry, exponential backoff), and progress streams back over SSE — more moving parts, but the API stays responsive.
 
-### Frontend
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,redux,tailwind,html,css" />
-</p>
+[Live demo](https://getmockmate.vercel.app/) · [Source](https://github.com/tassu1/mockmate)
 
-### AI & Integrations
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,postman" />
-  <img src="https://img.shields.io/badge/OpenRouter-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/NextAuth-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" />
-</p>
-
----
-
-## 📌 Pinned: Systems with a Real Engineering Decision Behind Them
-
-### 🏫 [EduManage](https://github.com/tassu1/edumanage)
-Multi-school platform — **5 roles, 35+ demo accounts, 4 schools**. The hard part wasn't CRUD, it was keeping every school's data logically isolated on shared infrastructure via strict `schoolId`-scoped queries, while running Socket.IO realtime chat, an OpenRouter-backed AI tutor with fallback models, and Cloudinary uploads on top.
-`React` `Node.js` `Express` `MongoDB` `Socket.IO` `JWT` `OpenRouter` `AWS EC2`
-
-### 🧠 [MockMate](https://github.com/tassu1/mockmate)
-AI interview platform where report generation can't block the user. Offloaded to a **BullMQ job queue on Redis**, processed by a separate worker with 3× retry and exponential backoff, progress streamed back over **SSE** — so the API stays responsive while the LLM works in the background.
-`Redis` `BullMQ` `SSE` `OpenRouter` `Node.js` `Express`
-
-### 📄 [Lexica AI](https://github.com/tassu1/Lexica)
-Prompt-to-document generator for pitches, market analysis, synopses, and proposals. Splits generation into a **prompt-enhancement pass** and a **generation pass** instead of one large call — cheaper to detect and retry failures — then exports to PDF/DOCX.
+**[Lexica AI](https://github.com/tassu1/Lexica)** — AI document generation
+Turns a single prompt into a structured, exportable document — pitches, market analyses, synopses, proposals — as PDF or DOCX.
 `Next.js` `TypeScript` `NextAuth` `MongoDB` `OpenRouter`
+> **How do you keep long-form generation from failing partway through?** One large prompt-to-document call is fragile and risks hitting token limits. The pipeline splits into a prompt-enhancement pass and a separate generation pass, so a failure is cheaper to detect and retry — at the cost of extra orchestration and latency.
 
-➡️ *More projects, including [InnerLight](https://github.com/tassu1/innerlight) (AI wellness companion) and [DevSnip](https://github.com/tassu1/devsnip) (snippet manager), in my repos.*
+[Live demo](https://lexicaai.vercel.app/) · [Source](https://github.com/tassu1/Lexica)
 
----
+**[InnerLight](https://github.com/tassu1/innerlight)** — AI wellness companion
+Mood tracking, journaling, and an AI companion (Lumi) in one app, with JWT-protected data per user and Cloudinary-backed media storage.
+`React` `Node.js` `Express` `MongoDB` `JWT` `Cloudinary`
+> **Why split the client and API instead of one monolith?** It keeps app services, user data, and external media storage cleanly separated — the tradeoff is handling CORS and environment config across two deployed pieces instead of one.
 
-## 💼 Experience
-
-**Full Stack Developer Intern** @ Texura (Remote) — *Oct 2025 – Jan 2026*
-Built a restaurant management platform end-to-end: table booking, online ordering, menu management, 3 role-specific workflows, 15+ REST APIs, Razorpay + Cloudinary integration.
-
-**Cloud & DevOps Intern** @ Learn & Build (Remote) — *Aug 2023 – Sep 2023*
-Containerized services with Docker, set up Git branching/PR workflows, built CI/CD pipelines to AWS EC2/S3.
+[Live demo](https://innerlightai.vercel.app/) · [Source](https://github.com/tassu1/innerlight)
 
 ---
 
-## 📈 Activity
+### `03 /` My toolkit
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tassu1&theme=react-dark&hide_border=true&area=true" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tassu1&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+**Backend** — Node.js · Express · TypeScript · REST APIs · JWT · RBAC · Socket.IO
+**Data & infrastructure** — MongoDB · PostgreSQL · Redis · BullMQ · Docker · AWS EC2/S3 · Vercel
+**Frontend** — React · Next.js · Redux · Tailwind CSS
+**AI & integrations** — OpenRouter API · NextAuth · Google OAuth · Cloudinary
 
 ---
 
-## 🐍 Contribution Snake
+### `04 /` How I think about engineering
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tassu1/tassu1/output/snake.svg" alt="snake animation" />
-  <img src="https://raw.githubusercontent.com/tassu1/tassu1/output/snake-dark.svg" alt="snake animation dark" />
-</p>
+I try to understand the problem before choosing the implementation — user needs, data boundaries, security, and where the system is likely to break, before writing code. Most of what I've built came out of a real constraint: keeping five schools' data apart on shared infrastructure, a queue that couldn't afford to block on AI generation, a document pipeline that had to survive a bad generation attempt. The edge cases are usually where the actual engineering is.
+
+Outside of product work: 300+ problems solved across LeetCode and other platforms, and Branch Topper in my Diploma (82.17%).
 
 ---
 
-## 🌍 Connect
+### `05 /` Let's connect
 
-<p align="center">
-  <a href="https://github.com/tassu1"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/md-tahseen-alam-892317263/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/tahseen_/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="mailto:tassutahsee@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <sub>300+ DSA problems solved · Branch Topper, Diploma CSE (82.17%)</sub>
-</p>
+Open to backend engineering and full-stack roles — reach out via [email](mailto:tassutahsee@gmail.com) or [LinkedIn](https://www.linkedin.com/in/md-tahseen-alam-892317263/).
