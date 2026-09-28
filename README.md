@@ -11,10 +11,7 @@
 
 <br/>
 
-**Backend-Focused Full Stack Developer** · Jaipur, India
-
-![Status](https://img.shields.io/badge/status-open_to_opportunities-10B981?style=flat-square&labelColor=0D1117)
-
+**Backend Focused Full Stack Developer** · Jaipur, India
 Building reliable APIs, secure systems, and scalable web applications. I take a problem from initial requirements through to a working, deployed product with a particular interest in the parts of a system most people never see.
 
 [Portfolio](https://tassu1.vercel.app/) · [GitHub](https://github.com/tassu1) · [LinkedIn](https://www.linkedin.com/in/md-tahseen-alam-892317263/) · [LeetCode](https://leetcode.com/u/tahseen_/) · [Email](mailto:tassutahsee@gmail.com)
@@ -32,7 +29,7 @@ Building reliable APIs, secure systems, and scalable web applications. I take a 
 
 ## `02 /` Selected work
 
-### EduManage — Multi-tenant school management
+### EduManage: Multi-tenant school management
 
 A role based school management platform with school level data isolation, attendance, exams, timetables, and an AI tutor 5 roles, tested across 4 schools with 35+ demo accounts.
 
@@ -47,7 +44,7 @@ A role based school management platform with school level data isolation, attend
 
 ---
 
-### MockMate — AI interview platform
+### MockMate: AI interview platform
 
 An interview practice tool where AI generated reports are handled asynchronously so the API never blocks on generation.
 
@@ -62,7 +59,7 @@ An interview practice tool where AI generated reports are handled asynchronously
 
 ---
 
-### Lexica AI — AI document generation
+### Lexica AI: AI document generation
 
 Turns a single prompt into a structured, exportable document pitches, market analyses, synopses, proposals as PDF or DOCX.
 
@@ -77,7 +74,7 @@ Turns a single prompt into a structured, exportable document pitches, market ana
 
 ---
 
-### InnerLight — AI wellness companion
+### InnerLight: AI wellness companion
 
 Mood tracking, journaling, and an AI companion (Lumi) in one app, with JWT-protected data per user and Cloudinary backed media storage.
 
@@ -126,10 +123,17 @@ Mood tracking, journaling, and an AI companion (Lumi) in one app, with JWT-prote
 
 ## `05 /` My toolkit
 
-**Backend** — Node.js · Express · TypeScript · REST APIs · JWT · RBAC · Socket.IO
-**Data & infrastructure** — MongoDB · PostgreSQL · Redis · BullMQ · Docker · AWS EC2/S3 · Vercel
-**Frontend** — React · Next.js · Redux · Tailwind CSS
-**AI & integrations** — OpenRouter API · NextAuth · Google OAuth · Cloudinary
+**Backend**  
+Node.js · Express · TypeScript · REST APIs · JWT · RBAC · Socket.IO
+
+**Data & infrastructure**  
+MongoDB · PostgreSQL · Redis · BullMQ · Docker · AWS EC2/S3 · Vercel
+
+**Frontend**  
+React · Next.js · Redux · Tailwind CSS
+
+**AI & integrations**  
+OpenRouter API · NextAuth · Google OAuth · Cloudinary
 
 <img src="assets/animated-divider.svg" width="100%" height="6" alt="" />
 
