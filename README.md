@@ -8,7 +8,7 @@
 
 **Backend-Focused Full Stack Developer** · Jaipur, India · ![Open to opportunities](https://img.shields.io/badge/open_to_opportunities-10B981?style=flat-square&labelColor=0D1117)
 
-I build backend heavy web products end to end, from initial requirements to a deployed product: REST APIs, authentication, realtime features, background job processing, and the cloud setup that runs it all. Most of what I've shipped has come out of a real constraint, like keeping five schools' data apart on shared infrastructure, or a job queue that couldn't afford to block on an AI call.
+I'm a backend leaning full stack developer drawn to the parts of a system most people never see: how a request gets authenticated, how a job gets queued and retried, how data stays isolated between tenants on shared infrastructure. Most of what I've built came out of a real constraint, not a tutorial a multi school platform that had to keep five schools' data apart, a queue backed AI tool that couldn't afford to block on generation, a document pipeline that had to survive a bad generation attempt.
 
 [Portfolio](https://tassu1.vercel.app/) · [GitHub](https://github.com/tassu1) · [LinkedIn](https://www.linkedin.com/in/md-tahseen-alam-892317263/) · [LeetCode](https://leetcode.com/u/tahseen_/) · [Email](mailto:tassutahsee@gmail.com)
 
@@ -33,45 +33,44 @@ I build backend heavy web products end to end, from initial requirements to a de
 ## Toolkit
 
 **Languages**
-<img src="https://skillicons.dev/icons?i=js,ts,py,cpp" alt="JavaScript, TypeScript, Python, C++" />
+<br/><img src="https://skillicons.dev/icons?i=js,ts,py,cpp" alt="JavaScript, TypeScript, Python, C++" />
 
 **Frontend**
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,html" alt="React, Next.js, Redux, Tailwind CSS, HTML5" />
+<br/><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,html" alt="React, Next.js, Redux, Tailwind CSS, HTML5" />
 
 **Backend & APIs**
-<img src="https://skillicons.dev/icons?i=nodejs,express" alt="Node.js, Express.js" />
-![REST APIs](https://img.shields.io/badge/REST_APIs-10B981?style=flat-square&labelColor=0D1117)
-![JWT](https://img.shields.io/badge/JWT-10B981?style=flat-square&labelColor=0D1117)
-![RBAC](https://img.shields.io/badge/RBAC-10B981?style=flat-square&labelColor=0D1117)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-10B981?style=flat-square&labelColor=0D1117)
+<br/><img src="https://skillicons.dev/icons?i=nodejs,express" alt="Node.js, Express.js" />
+<br/><sub>also REST APIs · JWT · RBAC · Socket.IO</sub>
 
 **Databases**
-<img src="https://skillicons.dev/icons?i=mongodb,postgres" alt="MongoDB, PostgreSQL" />
-![Mongoose](https://img.shields.io/badge/Mongoose-10B981?style=flat-square&labelColor=0D1117)
-![Database Design](https://img.shields.io/badge/Database_Design-10B981?style=flat-square&labelColor=0D1117)
+<br/><img src="https://skillicons.dev/icons?i=mongodb,postgres" alt="MongoDB, PostgreSQL" />
+<br/>
 
 **Cloud, DevOps & deployment**
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,vercel" alt="AWS, Docker, Git, GitHub, Vercel" />
-![Render](https://img.shields.io/badge/Render-10B981?style=flat-square&labelColor=0D1117)
+<br/><img src="https://skillicons.dev/icons?i=aws,docker,git,github,vercel" alt="AWS, Docker, Git, GitHub, Vercel" />
+<br/><sub>also Render</sub>
 
 **AI & integrations**
-<img src="https://skillicons.dev/icons?i=redis" alt="Redis" />
-![OpenRouter API](https://img.shields.io/badge/OpenRouter_API-10B981?style=flat-square&labelColor=0D1117)
-![NextAuth](https://img.shields.io/badge/NextAuth-10B981?style=flat-square&labelColor=0D1117)
-![Google OAuth](https://img.shields.io/badge/Google_OAuth-10B981?style=flat-square&labelColor=0D1117)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-10B981?style=flat-square&labelColor=0D1117)
-![Multer](https://img.shields.io/badge/Multer-10B981?style=flat-square&labelColor=0D1117)
-![BullMQ](https://img.shields.io/badge/BullMQ-10B981?style=flat-square&labelColor=0D1117)
+<br/><img src="https://skillicons.dev/icons?i=redis" alt="Redis" />
+<br/><sub>also OpenRouter API · NextAuth · Google OAuth · Cloudinary · Multer · BullMQ</sub>
+
 
 ## Selected projects
 
-| Project | What it is | Stack | Links |
-|---|---|---|---|
-| **EduManage** | Multi-school management platform with role-based dashboards for admins, teachers, students, and parents | `React` `Node.js` `MongoDB` `Socket.IO` | [Live](https://edumanageai.vercel.app/) · [Source](https://github.com/tassu1/edumanage) |
-| **MockMate** | AI mock-interview platform with async, queue-based report generation | `Node.js` `Redis` `BullMQ` `OpenRouter` | [Live](https://getmockmate.vercel.app/) · [Source](https://github.com/tassu1/mockmate) |
-| **Lexica AI** | AI document generator that turns a prompt into a structured PDF or DOCX | `Next.js` `TypeScript` `MongoDB` `OpenRouter` | [Live](https://lexicaai.vercel.app/) · [Source](https://github.com/tassu1/Lexica) |
-| **InnerLight** | AI wellness companion for mood tracking, journaling, and reflection | `React` `Node.js` `MongoDB` `Cloudinary` | [Live](https://innerlightai.vercel.app/) · [Source](https://github.com/tassu1/innerlight) |
-| **DevSnip** | Personal code snippet manager with search, tags, and one-click copy | `React` `Node.js` `MongoDB` `JWT` | [Live](https://devsnipa.vercel.app/) · [Source](https://github.com/tassu1/devsnip) |
+**EduManage** · Multi school management platform with role based dashboards for admins, teachers, students, and parents
+`React` `Node.js` `MongoDB` `Socket.IO` — [Live](https://edumanageai.vercel.app/) · [Source](https://github.com/tassu1/edumanage)
+
+**MockMate** · AI mock-interview platform with async, queue-based report generation
+`Node.js` `Redis` `BullMQ` `OpenRouter` — [Live](https://getmockmate.vercel.app/) · [Source](https://github.com/tassu1/mockmate)
+
+**Lexica AI** · AI document generator that turns a prompt into a structured PDF or DOCX
+`Next.js` `TypeScript` `MongoDB` `OpenRouter` — [Live](https://lexicaai.vercel.app/) · [Source](https://github.com/tassu1/Lexica)
+
+**InnerLight** · AI wellness companion for mood tracking, journaling, and reflection
+`React` `Node.js` `MongoDB` `Cloudinary` — [Live](https://innerlightai.vercel.app/) · [Source](https://github.com/tassu1/innerlight)
+
+**DevSnip** · Personal code snippet manager with search, tags, and one click copy
+`React` `Node.js` `MongoDB` `JWT` — [Live](https://devsnipa.vercel.app/) · [Source](https://github.com/tassu1/devsnip)
 
 *Architecture, database schema, and deeper engineering notes for each project live in its own repository README.*
 
@@ -81,7 +80,7 @@ I build backend heavy web products end to end, from initial requirements to a de
 Built a restaurant management platform end to end: table booking, online ordering, menu management, 15+ REST APIs, Razorpay and Cloudinary integration.
 
 **Cloud & DevOps Intern** — Learn & Build (Remote) · Aug 2023 – Sep 2023
-Containerized services with Docker, worked with Git branching/PR workflows, and gained hands-on CI/CD and AWS (EC2/S3) deployment experience.
+Containerized services with Docker, worked with Git branching/PR workflows, and gained hands on CI/CD and AWS (EC2/S3) deployment experience.
 
 ## Problem solving & education
 
@@ -91,4 +90,4 @@ B.Tech in Computer Science & Engineering, Global Institute of Technology, Jaipur
 
 ## Connect
 
-Open to backend engineering and full-stack roles — reach out via [email](mailto:tassutahsee@gmail.com) or [LinkedIn](https://www.linkedin.com/in/md-tahseen-alam-892317263/).
+Open to backend engineering and full stack roles reach out via [email](mailto:tassutahsee@gmail.com) or [LinkedIn](https://www.linkedin.com/in/md-tahseen-alam-892317263/).
