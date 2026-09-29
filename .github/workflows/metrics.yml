@@ -1,0 +1,94 @@
+name: Metrics
+
+# Generates the SVG cards shown in the "GitHub activity" section of README.md
+# using lowlighter/metrics (https://github.com/lowlighter/metrics).
+# Output files are committed to the root of this repository:
+#   metrics.overview.svg, metrics.calendar.svg, metrics.languages.svg,
+#   metrics.achievements.svg, metrics.habits.svg, metrics.activity.svg
+
+on:
+  schedule:
+    - cron: "0 1 * * *"      # once a day (01:00 UTC)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+# Never run two copies at once (they would both try to commit).
+concurrency:
+  group: metrics
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # needed so the action can commit the SVG files
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Profile overview: header, activity, community, repositories
+      - name: Overview
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.overview.svg
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+
+      # 2. Isometric contribution calendar (full year)
+      - name: Contribution calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.calendar.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Kolkata
+
+      # 3. Most used languages
+      - name: Languages
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
+          plugin_languages_limit: 6
+
+      # 4. Achievements (computed by metrics, NOT official GitHub badges)
+      - name: Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.achievements.svg
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+      # 5. Coding habits (facts + recent activity charts)
+      - name: Coding habits
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.habits.svg
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          config_timezone: Asia/Kolkata
+
+      # 6. Recent public activity
+      - name: Recent activity
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.activity.svg
+          base: ""
+          plugin_activity: yes
+          config_timezone: Asia/Kolkata
