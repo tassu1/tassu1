@@ -20,7 +20,7 @@
 <tr>
 <td width="62%" valign="middle">
 
-Hello there! I'm **Tahseen**, a backend focused Full Stack Developer who enjoys building real world applications and solving problems on LeetCode. I work with technologies like Node.js, Express.js, React, Redis, BullMQ, MongoDB, and PostgreSQL to build practical applications and improve my development skills.
+Hello there! I'm **Tahseen**, a backend-focused Full Stack Developer who enjoys building real-world applications and solving problems on LeetCode. I work with technologies like Node.js, Express.js, React, Redis, BullMQ, MongoDB, and PostgreSQL to build practical applications and improve my development skills.
 
 </td>
 <td width="38%" align="center" valign="middle">
@@ -81,5 +81,5 @@ Hello there! I'm **Tahseen**, a backend focused Full Stack Developer who enjoys 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tassu1&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=false&title_color=ffffff&custom_title=Tahseen%27s%20Contribution%20Graph" alt="Tahseen's Contribution Graph" />
+  <img src="assets/activity-graph.svg" width="100%" alt="Tahseen's Contribution Graph" />
 </p>
